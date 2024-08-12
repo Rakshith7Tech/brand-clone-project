@@ -1,0 +1,168 @@
+/* Navbar Styles */
+.nav {
+    background-color: #FCD470;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+.nav-bnd {
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.nav-bnd1 {
+    font: 25px "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    display: inline-block;
+}
+
+.nav-lnk {
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Weather Widget Styles */
+.weather-widget {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.weather-text {
+    margin: 0;
+    padding-right: 15px;
+}
+
+/* Main Section Styles */
+.sec-main {
+    background-color: #FCD470;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.sec-title {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec-note {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.sec-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+/* Features Section Styles */
+.feat-card {
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feat-card1{
+    background-image: url(images/presentation.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    min-height: 260px;
+    min-width: 700px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feat-card2{
+    background-image: url(images/user-logo.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100%;
+    min-height: 260px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feat-card3{
+    background-image: url(images/social-media.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100%;
+    min-height: 260px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+    padding-top: 170px;
+}
+
+/* Footer Styles */
+.ft {
+    background-color: black;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 10px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    .sec-main {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .sec-title {
+        font-size: 2rem;
+    }
+
+    .sec-note {
+        font-size: 1rem;
+    }
+
+    .sec-btn {
+        font-size: 1rem;
+    }
+
+    .feat-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .nav-bnd {
+        font-size: 20px;
+    }
+
+    .nav-bnd1 {
+        font-size: 20px;
+    }
+
+    .nav-lnk {
+        font-size: 16px;
+    }
+
+    .weather-widget {
+        font-size: 12px;
+    }
+}
