@@ -16,7 +16,7 @@ const FrontPage = () => {
             params: {
               q: "Bangalore",
               units: "metric", 
-              appid: "1aa5a76bc1eb2bf2a6807d271ed12ec2",
+              appid: "API key",
             },
           }
         );
